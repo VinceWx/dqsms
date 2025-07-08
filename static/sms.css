@@ -1,0 +1,99 @@
+/* 短信助手自定义样式 */
+
+.sms-form {
+  padding: 30px 20px;
+}
+
+.sms-form .el-form-item {
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  margin-bottom: 22px;
+}
+
+.sms-form .el-form-item__label {
+  text-align: left !important;
+  margin-bottom: 6px;
+  font-size: 15px;
+  color: #606266;
+  font-weight: 500;
+  line-height: 1.1;
+  align-self: flex-start !important;
+  padding: 0 !important;
+}
+
+.sms-form .el-form-item__content {
+  width: 100%;
+}
+
+.sms-form .el-input,
+.sms-form .el-textarea {
+  width: 100%;
+}
+
+.sms-form .el-input__inner,
+.sms-form .el-textarea__inner {
+  border-radius: 8px;
+  border: 1.5px solid #dcdfe6;
+  box-shadow: none !important;
+  font-size: 15px;
+  padding: 10px 14px;
+  background: #fff;
+  transition: border-color 0.2s;
+}
+
+.sms-form .el-textarea__inner {
+  min-height: 300px;
+  height: 300px;
+  resize: vertical;
+}
+
+.sms-form .el-input__inner:focus,
+.sms-form .el-textarea__inner:focus {
+  border-color: #409eff;
+  outline: none;
+}
+
+.sms-form .el-input__inner[readonly],
+.sms-form .el-textarea__inner[readonly] {
+  background: #f5f7fa;
+  color: #909399;
+  cursor: not-allowed;
+}
+
+.sms-form .el-input__wrapper,
+.sms-form .el-textarea__wrapper {
+  box-shadow: none !important;
+  border: none !important;
+  padding: 0 !important;
+  background: none !important;
+}
+
+.sms-form .el-form-item.is-error .el-input__inner,
+.sms-form .el-form-item.is-error .el-textarea__inner {
+  border-color: #f56c6c;
+}
+
+.sms-form .el-button {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 16px;
+  font-weight: 500;
+  border-radius: 8px;
+  padding: 12px 0;
+  letter-spacing: 2px;
+}
+
+.footer .el-button {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 16px;
+  font-weight: 500;
+  border-radius: 8px;
+  padding: 12px 0;
+  letter-spacing: 2px;
+} 
